@@ -1,0 +1,18 @@
+
+
+<h1>Buscar películas: <small class="text-capitalize">{{ query }}</small></h1>
+
+
+<div class="row mt-5">
+
+    <div class="col">
+
+        <app-peliculas-poster-grid
+            *ngIf="movies.length > 0" 
+            [movies]="movies"></app-peliculas-poster-grid>
+
+    </div>
+
+</div>
+
+
